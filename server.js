@@ -49,7 +49,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send({
     Welcome: 
-    "Hi! This is the StreetSmart API!",
+    "This is the API for my final project: A quiz game called StreetSmart.",
     Routes: [
       { 
         "/questions": "Show all questions."
@@ -67,7 +67,7 @@ app.get("/questions", async (req, res) => {
   });
 });
 
-// Show answers with a specific id
+/* // Show answers with a specific id
 app.get("/questions/answers/:id", async (req, res) => {
   try {
     const answerById = await Question.findOne({ correctAnswer: req.params.id })
@@ -90,7 +90,7 @@ app.get("/questions/answers/:id", async (req, res) => {
       error: "Invalid id" 
     });
   }
-});
+}); */
 
 /* // Show all correct answers
 app.get("/questions/answers", async (req, res) => {
