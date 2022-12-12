@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "clue1": "The city we are looking for has a color-coded public transport system, which consists of five metro lines, 24 tram lines, and over 100 bus lines.",
+        "clue1ImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=248871873647204&style=photo",
+        "clue2": "Our city is considered to be the most livable city in the world due to its low crime rate and high quality of life.",
+        "clue2ImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=2871879196357526&style=photo",
+        "clue3": "In this city you can find the oldest continuously operating cafe in the world, Cafe Central, which has been open since 1876.",
+        "clue3ImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=1291397584588099&style=photo",
+        "clue4": "It is the birthplace of several famous composers such as Wolfgang Amadeus Mozart and Ludwig van Beethoven and the city is the birthplace of the waltz.",
+        "clue4ImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=510338956979705&style=photo",
+        "clue5": "This is the capital of Austria and it is known for its beautiful imperial palaces and architecture.",
+        "clue5ImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=187157113226910&style=photo",
+        "correctAnswer": "Vienna",
+        "correctAnswerImgUrl": "https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=625621858834998&style=photo"
+    },
+    {
+        "id": 2,
+        "clue1": "The city we are looking for is home to one of the world’s largest Jewish populations outside of Israel.",
+        "clue1ImgUrl": "",
+        "clue2": "Our city is one of the few global cities with a permanent commission of the International Olympic Committee.",
+        "clue2ImgUrl": "",
+        "clue3": "This city has a rich cultural life, with a wide variety of museums, galleries, and performance venues and it is home to the world’s largest tango festival.",
+        "clue3ImgUrl": "",
+        "clue4": "It is located on the western shore of the Rio de la Plata estuary and is a major financial and cultural hub in Latin America.",
+        "clue4ImgUrl": "",
+        "clue5": "This is the capital and largest city of Argentina.",
+        "clue5ImgUrl": "",
+        "correctAnswer": "Buenos Aires",
+        "correctAnswerImgUrl": ""
+    }
+  ]
+  
