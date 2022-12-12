@@ -1,5 +1,6 @@
 # Final project API
-This is the API for my final project StreetSmart. Made with Express and MongoDB.
+This is the API for my final project StreetSmart.
+
 Routes: 
 - /questions (Show all questions)
 
