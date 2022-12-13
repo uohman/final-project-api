@@ -1,5 +1,5 @@
 # Final project API
-This is the API for my final project StreetSmart.
+This is the backend of my final project StreetSmart, an API with questions.
 
 Routes: 
 - /questions (Show all questions)
