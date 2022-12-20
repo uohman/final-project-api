@@ -15,17 +15,11 @@ mongoose.Promise = Promise
 const Question = mongoose.model("Question", {
   id: Number,
   clue1: String,
-  clue1ImgUrl: String,
   clue2: String,
-  clue2ImgUrl: String,
   clue3: String,
-  clue3ImgUrl: String,
   clue4: String,
-  clue4ImgUrl: String,
   clue5: String,
-  clue5ImgUrl: String,
-  correctAnswer: String,
-  correctAnswerImgUrl: String
+  correctAnswer: String
 });
 
 if(process.env.RESET_DB) {
