@@ -2,9 +2,9 @@ import express from "express";
 import cors from 'cors'
 import mongoose from 'mongoose'
 
-import questions from "./data/questions.json";
+import games from "./data/games.json";
 
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/questions"
+const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/games"
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.Promise = Promise
 
@@ -12,22 +12,18 @@ mongoose.Promise = Promise
 // when starting the server. Example command to overwrite PORT env variable value:
 // PORT=9000 npm start
 
-const Question = mongoose.model("Question", {
+const Game = mongoose.model("Game", {
   id: Number,
-  clue1: String,
-  clue2: String,
-  clue3: String,
-  clue4: String,
-  clue5: String,
-  correctAnswer: String
+  game1: String,
+  game2: String
 });
 
 if(process.env.RESET_DB) {
   const resetDataBase = async () => {
-    await Question.deleteMany();
-    questions.forEach(singleQuestion => {
-      const newQuestion = new Question(singleQuestion);
-      newQuestion.save();
+    await Game.deleteMany();
+    games.forEach(singleGame => {
+      const newGame = new Game(singleGame);
+      newGame.save();
     })
   }
   resetDataBase();
@@ -47,20 +43,21 @@ app.get("/", (req, res) => {
     "This is the API for my final project: A quiz game called StreetSmart.",
     Routes: [
       { 
-        "/questions": "Show all questions."
+        "/games": "Show all games."
       }
     ],
   })
 });
 
-// Show all questions
-app.get("/questions", async (req, res) => {
-  const allQuestions = await Question.find()
+// Show all games
+app.get("/games", async (req, res) => {
+  const allGames = await Game.find()
   res.status(200).json({
     success: true,
-    questions: allQuestions
+    games: allGames
   });
 });
+
 
 /* // Show answers with a specific id
 app.get("/questions/answers/:id", async (req, res) => {

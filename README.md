@@ -1,8 +1,8 @@
 # Final project API
-This is the backend of my final project StreetSmart, an API with questions.
+This is the backend of my final project StreetSmart, an API with games.
 
 Routes: 
-- /questions (Show all questions)
+- /games (Show all games)
 
 ### Tech
 - Node.js (Express/Mongoose)
