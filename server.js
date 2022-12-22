@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
 
 // Show all games
 app.get("/games", async (req, res) => {
-  const allGames = await Game.find()
+  const allGames = await Game.find().sort({"id":1})
   res.status(200).json({
     success: true,
     games: allGames
