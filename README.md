@@ -1,5 +1,5 @@
 # Final project API
-This is the backend of my final project StreetSmart, an API with games.
+This is the backend of my final project StreetSmart.
 
 Routes: 
 - /games (Show all games)
@@ -9,4 +9,5 @@ Routes:
 - MongoDB
 
 ## View it live
-https://final-project-api-veooltntuq-lz.a.run.app
+API: https://final-project-api-veooltntuq-lz.a.run.app
+Frontend: 
