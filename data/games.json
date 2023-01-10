@@ -1,32 +1,32 @@
 [
     {
       "id": 1,
-      "gameOne": "The city we are looking for has a color-coded public transport system, which consists of five metro lines, 24 tram lines, and over 100 bus lines.",
+      "gameOne": "Day or night, you can always drive here with your shades on. Just be careful not to get pulled over.",
       "gameTwo": "The city we are looking for is home to one of the world’s largest Jewish populations outside of Israel."
     },
     {
       "id": 2,
-      "gameOne": "Our city is considered to be the most livable city in the world due to its low crime rate and high quality of life.",
+      "gameOne": "The first skyscraper in the world was built here in 1885.  Don't be green with envy if you don't know the answer just yet.",
       "gameTwo": "Our city is one of the few global cities with a permanent commission of the International Olympic Committee."
     },
     {
       "id": 3,
-      "gameOne": "In this city you can find the oldest continuously operating cafe in the world, Cafe Central, which has been open since 1876.",
+      "gameOne": "Over here you'll find one of the busiest airports in North America.",
       "gameTwo": "This city has a rich cultural life, with a wide variety of museums, galleries, and performance venues and it is home to the world’s largest tango festival."
      },
      {
       "id": 4,
-      "gameOne": "It is the birthplace of several famous composers such as Wolfgang Amadeus Mozart and Ludwig van Beethoven and the city is the birthplace of the waltz.",
+      "gameOne": "Even though this place is mainly known for its sports teams, you might be able to see a musical or an opera here too.",
       "gameTwo": "It is located on the western shore of the Rio de la Plata estuary and is a major financial and cultural hub in Latin America."
      },
      {
       "id": 5,
-      "gameOne": "This is the capital of Austria and it is known for its beautiful imperial palaces and architecture.",
+      "gameOne": "We're almost home in the third largest city in the US. Home, sweet home... No, we're not in Alabama.",
       "gameTwo": "This is the capital and largest city of Argentina."
      },
     {
       "id": 6,
-      "gameOne": "Vienna",
-      "gameTwo": "Buenos Aires"
+      "gameOne": "Chicago, Illinois, United States",
+      "gameTwo": ""
     }      
   ]
