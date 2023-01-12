@@ -10,4 +10,4 @@ Routes:
 
 ## View it live
 API: https://final-project-api-veooltntuq-lz.a.run.app
-Frontend: 
+Frontend: https://streetsmart.netlify.app/
