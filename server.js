@@ -15,7 +15,8 @@ mongoose.Promise = Promise
 const Game = mongoose.model("Game", {
   id: Number,
   gameOne: String,
-  gameTwo: String
+  gameTwo: String,
+  clueExplanation: String
 });
 
 if(process.env.RESET_DB) {
